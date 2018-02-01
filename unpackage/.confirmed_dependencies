@@ -1,0 +1,19 @@
+{
+  "index.html": {
+    "refer": [
+      "signup.html",
+      "signin.html",
+      "user.html"
+    ]
+  },
+  "signup.html": {
+    "refer": [
+      "index.html"
+    ]
+  },
+  "signin.html": {
+    "refer": [
+      "signup.html"
+    ]
+  }
+}
