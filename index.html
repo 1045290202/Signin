@@ -271,10 +271,10 @@
                     document.getElementById("title").innerHTML="个人信息";
                 });
                 clk1.addEventListener("tap",lis1);
-				if(!storage){
-					signedin();
-				}else{
+				if(storage.username==undefined||storage.passwd==undefined){
 					signedout();
+				}else{
+					signedin();
 				}
            	});
            	function signedout(){
